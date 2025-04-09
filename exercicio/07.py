@@ -1,0 +1,32 @@
+print("+="*20)
+print("Banco Messi")
+print("=+"*20)
+
+print("Pois não caro estudante,")
+conta = input("Insira o número da sua conta: ")
+print("**"*20)
+
+print(f"Bem-vindo usuário da conta {conta}.")
+print("**" * 20)
+print("Crédito: A inserir")
+print("Débito: A inserir")
+print("Saldo: Não Calculado")
+print("**" * 20)
+print("Percebemos a falta de algumas")
+print("informações, insira a seguir.")
+print("**" * 20)
+credito = float(input("Quanto você tem de crédito? R$ "))
+debito = float(input("Quanto você tem de débito? R$ "))
+print("**" * 20)
+print("Calculando................")
+saldo = credito - debito
+print(f"Usuário da conta {conta}.")
+print("**" * 20)
+print(f"Crédito: R$ {credito}")
+print(f"Débito: R$ {debito}")
+if saldo >= 0:
+    print(f"Saldo: Positivo +R${saldo}")
+else:
+    print(f"Saldo: Negativo -R${saldo}")
+print("=+"*20)
+print("Este programa terminou.")
